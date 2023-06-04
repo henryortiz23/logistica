@@ -1,3 +1,6 @@
+html,body{
+    overflow-x: hidden;
+}
 body {
     background: #f1f1f1;
 }
@@ -70,7 +73,7 @@ body {
 }
 
 .barra-lateral .menu {
-    border-top: 5px #fff solid;
+    border-top: 5px orange solid;
 }
 
 .barra-lateral .menu a i {
@@ -82,6 +85,7 @@ body {
 
 .main {
     padding-top: 40px;
+    
 }
 
 .main .columna {
@@ -92,7 +96,7 @@ body {
 
 /*mediaquerys*/
 
-@media screen and (max-width:1300px) {
+@media screen and (max-width:1100px) {
     .barra-lateral {
         min-width: auto;
     }
@@ -141,7 +145,7 @@ body {
     border-top: 5px #fff solid;
 }
 
-@media screen and (max-width:575px) {
+@media screen and (max-width:540px) {
     .barra-lateral {
         height: auto;
     }
